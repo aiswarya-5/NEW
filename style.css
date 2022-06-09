@@ -1,0 +1,153 @@
+*{
+	font-family: arial, sans-serif;
+}
+.body{
+	display: flex;
+	flex:direction: column;
+	min-height: 100vh;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 30px;
+	margin-top: 14px;
+}
+nav a{
+	text-decoration: none;
+	font-size: 13px;
+	display: inline-block;
+	line-height: 24px;
+	font-weight: 400;
+	color: rgb(0,0,0, 0.87);
+	cursor: pointer;
+	padding: 5px 6.7px;
+}
+nav a:hover{
+	text-decoration: underline;
+	opacity: .85;
+}
+nav img{
+	width: 34px;
+	padding: 5px;
+	margin:auto 7px;
+	cursor: pointer;
+}
+nav img{
+	width: 28px;
+	opacity= .8;
+}
+nav button{
+	border-radius: 5px;
+	border: 1px solid blue;
+	font-weight: bold;
+	background: blue;
+	color: white;
+	padding: 7px 12px;
+	cursor: pointer;
+}
+nav button:hover{
+	opacity: .7;
+}
+.s1{
+	flex: 1;
+}
+
+.s1 .pic{
+	display: block;
+	margin: 0px auto;
+	margin top: 107px;
+	width: 280px;
+}
+.sb{
+	width: 580px;
+	margin: 0px auto;
+	position: relative;	
+	text-align: center;
+}
+.sb .input{
+	display: block;
+	border: 1px solid gray;
+	font-size: 16px;
+	padding: 13px;
+	padding-left: 45px;
+	border-radius: 25px;
+	width: 100%;
+	transition: box-shadow 100ms;
+	outline: none;
+}
+.sb .input:hover{
+	box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.sb .search{
+	width: 20px;
+	opacity: .5;
+	position: absolute;
+	top:13px;
+	left:14px;
+}
+.sb .micro{
+	width: 23px;
+	position: absolute;
+	top: 7.5px;
+	right:40px;
+}
+.s{
+	border: 1px solid transparent;
+	padding: 9px 15px;
+	color: black;
+	font-size:13px;
+	margin-top: 25px;
+	cursor: pointer;
+}
+.s:hover{
+	border: 1px solid black;
+}
+.language{
+	margin-top:30px;
+	text-align: center;
+	font-size:13px;
+	color: #111;
+}
+.language a{
+	word-spacing: 5px;
+	text-decoration: none;
+}
+
+.language a:hover{
+	text-decoration: underline;
+}
+footer{
+	position: relative;
+	margin-top: 175px;
+	background: #F5F5F5;
+}
+footer h4 {
+	padding-left: 29px;
+	color: gray;
+	font-size: 15px;
+	font-weight: 400;
+	border:1px solid transparent;
+	line-height: 35px;
+}
+footer a{
+	display: inline-block;
+	text-decoration: none;
+	color: gray;
+	padding: 12px 11px;
+	font-size: 14px;
+}
+footer a:hover{
+	text-decoration: underline;
+}
+.last{
+	border: 1px solid gray;
+	display: flex;
+}
+.linkl{
+	padding-left: 18.7px;
+	flex: 1;
+}
+.linkright{
+	padding-right: 5px 6.7px;
+}
