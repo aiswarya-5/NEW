@@ -1,11 +1,6 @@
 *{
 	font-family: arial, sans-serif;
 }
-.body{
-	display: flex;
-	flex:direction: column;
-	min-height: 100vh;
-}
 nav{
 	display: flex;
 	align-items: center;
@@ -59,38 +54,37 @@ nav button:hover{
 	margin top: 107px;
 	width: 280px;
 }
-.sb{
+.searchbar{
 	width: 580px;
 	margin: 0px auto;
 	position: relative;	
 	text-align: center;
 }
-.sb .input{
+.searchbar .input{
 	display: block;
-	border: 1px solid gray;
+	border: 1px solid #CECECE;
 	font-size: 16px;
 	padding: 13px;
 	padding-left: 45px;
 	border-radius: 25px;
 	width: 100%;
 	transition: box-shadow 100ms;
-	outline: none;
 }
-.sb .input:hover{
+.searchbar .input:hover{
 	box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
-.sb .search{
+.searchbar .search{
 	width: 20px;
 	opacity: .5;
 	position: absolute;
 	top:13px;
 	left:14px;
 }
-.sb .micro{
+.searchbar .micro{
 	width: 23px;
 	position: absolute;
-	top: 7.5px;
-	right:40px;
+	top: 13px;
+	right: 20px;
 }
 .s{
 	border: 1px solid transparent;
