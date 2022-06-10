@@ -36,14 +36,12 @@ nav a:hover{
 	text-decoration: underline;
 	opacity: .85;
 }
-
 nav .apps{
 	opacity: .7;
 	cursor: pointer;
 	width: 16px;
    	padding-right: 24px;
-	
-    	
+
 }
 nav .sign{
 	width: 32px;
@@ -78,8 +76,8 @@ nav .sign{
 	width: auto;
 	transition: box-shadow 100ms;
 	height: 44px;
-        min-width: 584px
-    	
+        min-width: 582px;
+ 	
    
 }  
 .searchbar .input:hover{
