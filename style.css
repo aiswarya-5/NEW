@@ -58,7 +58,7 @@ nav .sign{
 	display: block;
 	margin: auto;
 	margin-top: 13px;
-	margin-left: 503px;
+	margin-left: 504px;
 	width: 273px;
 }
 .searchbar{
@@ -70,16 +70,18 @@ nav .sign{
 }
 .searchbar .input{
 	display: block;
-	border: 1px solid #e6e6e6;
+	border: 1px solid #dfe1e5;
 	font-size: 16px;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
-	border-radius: 25px;
-	width: 582px;
+	border-radius: 24px;
+	width: auto;
 	transition: box-shadow 100ms;
-	height: 45px;
+	height: 44px;
+        min-width: 584px
+    	
    
-}
+}  
 .searchbar .input:hover{
 	box-shadow: 0 0 11px rgba(33,33,33,.15); 
 }
@@ -102,13 +104,14 @@ nav .sign{
 	margin:11px 4px;
 	color: #3c4043;
 	font-size:14px;
-	margin-top: 29px;
+	margin-top: 30px;
 	cursor: pointer;
 	border-radius: 4px;
 	background: #f8f9fa;
 	height: 36px;
 	line-height: 27px;
-	width: 135px;
+	min-width: 54px;
+	text-align: center;	
 }
 .s:hover{
 	border: 1px solid #e6e6e6;
@@ -117,8 +120,7 @@ nav .sign{
 	margin-top:17px;
 	text-align: center;
 	font-size:13px;
-	color: #111;
-	
+	color: #111;	
 }
 .language a{
 	word-spacing: 5px;
@@ -131,7 +133,7 @@ nav .sign{
 }
 footer{
 	position: relative;
-	margin-top: 179px;
+	margin-top: 181px;
 	background: #F5F5F5;
 }
 footer h4 {
@@ -139,7 +141,8 @@ footer h4 {
 	padding: 15px 30px;
 	font-size: 15px;
 	font-weight: 400;
-	border-bottom: 1px solid #dadce0;
+	bottom-border: 1px solid #dadce0;
+	
 }
 footer a{
 	display: inline-block;
@@ -153,8 +156,8 @@ footer a:hover{
 }
 .last{
 	
-	padding: 0px 20px;
-	border: .5px solid #e6e6e6;
+	padding: 2.5px 20px;
+	border: .5px solid #dadce0;
 	display: flex;
 	text-align: center;
 }
