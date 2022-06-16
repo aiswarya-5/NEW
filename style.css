@@ -17,8 +17,7 @@ nav a{
 	line-height: 24px;
 	font-weight: 400;
 	color: rgb(0,0,0, 0.87);
-	cursor: pointer;
-	
+	cursor: pointer;	
 	padding: 5px 6.7px;
         padding-right: 18px;
 }
@@ -76,10 +75,11 @@ nav .sign{
 	width: auto;
 	transition: box-shadow 100ms;
 	height: 44px;
-        min-width: 582px;
- 	
-   
-}  
+        min-width: 582px;  
+} 
+.searchbar input:focus{
+	 outline:none;
+} 
 .searchbar .input:hover{
 	box-shadow: 0 0 11px rgba(33,33,33,.15); 
 }
